@@ -33,13 +33,13 @@ print("Операції: +, -, *, /, **, % ")
 print("Для виходу введіть 'exit'")
 
 while True:
-    operation = input("\nВведіть операцію (+, -, , /, **,%) або 'exit': ")
+    operation = input("\nВведіть операцію (+, -, , /, **, *,%) або 'exit': ")
 
     if operation.lower() == 'exit':
         print("До побачення!")
         break
 
-    if operation not in ['+', '-', '', '/', '**', '%']:
+    if operation not in ['+', '-', '', '/', '**', '*', '%']:
         print("Невірна операція!")
         continue
 
